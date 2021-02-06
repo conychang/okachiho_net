@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>okachiho.net</title>
+
+    <!-- <link rel="icon" type="image/svg" href="images/favicon.ico"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/plugin/normalize.css">
+
+    <link rel="stylesheet" href="css/common_style.css?date=210109">
+    <link rel="stylesheet" href="css/pc.css?date=210131">
+    <link rel="stylesheet" href="css/smartphone.css?date=210131">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'fpo7woi',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('a[href^=#]').click(function () {
+                var speed = 1000;
+                var href = $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top;
+                $("html, body").animate({ scrollTop: position }, speed, "swing");
+                return false;
+            });
+        });
+    </script>
+
+    <!-- 検索避け -->
+    <meta name="robots" content="noindex">
+    
+    <!-- OGP -->
+    <script src="scripts/ModalWindow.js"></script>
+    <meta property="og:title" content="okachiho.net">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://okachiho.net">
+    <!-- <meta property="og:image" content="https://fm.geidai.ac.jp/media-practice/2021/images/eyecatch.jpg"> -->
+    <meta property="og:description"
+        content="岡千穂｜Chiho Oka">
+</head>
+
+<body>
+    <div class="title">
+        I am playing a game exploring regularities of algorithmic variability for manipulating human behaviors, conceived from my experience in computer + experimental music.
+        <a href="">CV</a>
+        <a href="">Works</a>
+        <a href="">Events</a>
+        <a href="https://post.lurk.org/@okachiho" target="blank">Lurk</a>
+
+        Anti Social ->
+        <a href="https://www.instagram.com/okachiho/" target="blank">I</a>
+        <a href="https://twitter.com/chihooka" target="blank">T</a>
+        <a href="mailto:chihooka@gmail.com">Contact</a>
+
+    </div>
+</body>
+
+</html>

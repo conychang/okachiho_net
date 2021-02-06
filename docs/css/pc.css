@@ -6,3 +6,13 @@
     color: black;
     text-align: justify;
 }
+.title-thin {
+    font-family: toppan-bunkyu-midashi-min-st, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6.66rem;
+    color: black;
+    /* text-align: justify; */
+    padding-top: 1.75rem;
+    margin-bottom: 0rem;
+}

@@ -40,9 +40,9 @@ body {
 }
 ::-webkit-scrollbar {
   width: 0.5rem;
-  background: rgba(0, 0, 0, 0); /*スクロールバーの背景色*/
+  background: blue; /*スクロールバーの背景色*/
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.7);
+  background: white;
   border-radius: 0.25rem;
 }

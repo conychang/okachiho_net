@@ -1,3 +1,11 @@
 @media screen and (max-width: 480px) {
-  
+    .title {
+        font-size: 10vw;
+    }
+    .title-thin {
+        font-size: 8vw;
+    }
+    .backbutton {
+        width: 16vh;
+    }
 }

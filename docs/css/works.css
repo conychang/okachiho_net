@@ -1,0 +1,43 @@
+.work-title {
+    font-family: toppan-bunkyu-midashi-min-st, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6.66vw;
+    color: white;
+    text-align: left;
+    z-index: 1000;
+    position: absolute;
+}
+.work-title span {
+    background-color: blue;
+}
+.image-01 {
+    width: 100%;
+    height: auto;
+}
+.image-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+}
+.caption-wrapper {
+    background-color: blue;
+    padding: 10%;
+}
+.caption {
+    font-family: toppan-bunkyu-midashi-min-st, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    color: white;
+    padding-top: 1.75rem;
+    margin-bottom: 0rem;
+    z-index: 1000;
+    text-align: justify;
+}
+.caption span {
+    background-color: blue;
+}

@@ -15,6 +15,10 @@
     width: 100%;
     height: auto;
 }
+.image-02 {
+    width: 100%;
+    height: auto;
+}
 .image-wrapper {
     width: 100%;
     height: auto;
@@ -40,4 +44,18 @@
 }
 .caption span {
     background-color: blue;
+}
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+    .image-wrapper {
+        overflow-x: hidden;
+    }
+    .image-01 {   
+        height: 100vh;
+        width: auto;  
+    }
+    .caption {
+        font-size: 4vw;
+    }
 }

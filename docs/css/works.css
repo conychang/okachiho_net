@@ -82,6 +82,7 @@
     }
     .image-wrapper iframe {
         /* width: 70%; */
-        height: 470px;
+        width: 90%;
+        height: 500px;
     }
 }

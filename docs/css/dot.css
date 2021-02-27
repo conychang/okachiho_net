@@ -1,0 +1,148 @@
+.iframe-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    z-index: -1;
+}
+#video iframe{
+    position: fixed;
+    z-index: -1;
+    top:50%;
+    left: 50%;
+}
+.higuchi{
+    width: 68vw;
+    height: auto;
+    /* position: fixed; */
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    overflow: visible;
+    /* -webkit- transform: translateY(-50%) translateX(-50%); */
+}
+.higuchi-vimeo {
+    padding:56.25% 0 0 0;
+}
+.sticker {
+    position: absolute;
+    z-index: 100;
+    margin: -5%;
+    width: 12%;
+}
+.sticker img {
+    width: 100%;
+    z-index: 200;
+}
+.sticker:hover {
+    /* opacity: 80%; */
+    cursor: pointer;
+    transform: rotateX(360deg);
+    transition: all 5s;
+}
+
+.bold {
+    font-family: usual, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.popup {
+    background-color: #6324FF;
+    box-shadow: 0 0 0 9px rgba(0, 0, 0, 0.4);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 90%;
+    overflow-y: scroll;
+    z-index: 500;
+    font-family: usual, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    color: #fff;
+    scrollbar-width: thin;
+  }
+  .popup a {
+      color: #fff;
+      text-decoration: underline;      
+  }
+  .popup p span {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background: #6324FF; /*スクロールバーの背景色*/
+  }
+  /* チェックボックスの初期設定 */
+  #popup-on {
+    display: none;
+  }
+  /* チェックされたらポップアップウインドウを開く */
+  #popup-on:checked + .popup{
+    display: block;
+  }
+  
+  /* 閉じるアイコン（右上） */
+  .icon-close {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-right: 3px;
+    position: absolute;
+    right: 0;
+  }
+  .icon-close {
+      cursor: pointer;
+  }
+  
+  /* 閉じるボタン */
+  .btn-close {
+    background: #fff;
+    border-radius: 5px;
+    color: #6324FF;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+  }  
+/* ポップアップの内容 */
+.popup-content {
+    margin: 40px auto 40px auto;
+    width: 90%;
+    z-index: 500;
+}
+
+/*  */
+@media screen and (max-width: 480px) {
+    .higuchi{
+        width: 100vw;
+    }
+    .sticker {
+        width: 70%;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .higuchi{
+        width: 100vw;
+    }
+    .sticker {
+        width: 20%;
+    }
+    .popup {
+        width: 90%;
+        height: 75vh;
+    }
+}
